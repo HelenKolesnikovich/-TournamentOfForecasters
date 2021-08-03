@@ -1,0 +1,8 @@
+.wrapper-page {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background: bottom 5% right no-repeat url(../images/smoke2.png), center / cover no-repeat url(../images/wrapper-page-background.png), linear-gradient(180deg, rgba(86, 99, 102, 0) 0%, #565E66 100%);
+  mix-blend-mode: normal;
+}
