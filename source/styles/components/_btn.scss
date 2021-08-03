@@ -1,0 +1,51 @@
+.btn {
+  @include transition(background-image, filter, transform);
+  display: block;
+  padding: $padding-button-default;
+  transform: skew($transform-angle-skew);
+  border: none;
+  border-radius: $border-radius-btn;
+  font-family: $ff-main-reg;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  @media all and (max-width: $media-xl) {
+    padding: $padding-button-size2;
+  }
+  @media all and (max-height: $media-height) {
+    padding: $padding-button-size3;
+  }
+
+  &--bright {
+    background-image: $bg-btn-ref-block-default;
+    filter: $filter-btn-ref-block-default;
+    color: $color-white;
+  
+    &:hover,
+    &:focus {
+      outline: none;
+      background-image: $bg-btn-ref-block-var2;
+      filter: $filter-btn-ref-block-var2;
+    }
+    &:active {
+      background-image: $bg-btn-ref-block-var2;
+      filter: $filter-btn-ref-block-var2;
+      transform: scale(.9) skew($transform-angle-skew);
+    }
+  }
+
+  &__icon {
+    display: inline;
+    margin-left: 30%;
+
+    @media all and (max-width: $media-xl) {
+      margin-left: 20%;
+    }
+  }
+  &__icon::before {
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+}
