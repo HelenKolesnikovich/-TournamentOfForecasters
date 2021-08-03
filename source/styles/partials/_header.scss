@@ -1,0 +1,43 @@
+.header {
+    padding: $padding-header-def;
+    justify-content: center;
+    align-items: center;
+  
+    @media all and (max-width: $media-small), (max-height: $media-height) {
+      padding: $padding-header-size2;
+    }
+  
+    img:first-child {
+      width: 182px;
+      height: auto; 
+      margin-right: 28px;
+  
+      @media all and (max-width: $media-xl) {
+        width: 162px;
+        margin-right: 22px;
+      }
+      @media all and (max-width: $media-small) {
+        width: 140px;
+        margin-right: 18px;
+      }
+      @media all and (max-height: $media-height) {
+        width: 100px;
+        margin-right: 10px;
+      }
+    }
+  
+    img:last-child {
+      width: 54px;
+      height: auto;
+  
+      @media all and (max-width: $media-xl) {
+        width: 42px;
+      }
+      @media all and (max-width: $media-small) {
+        width: 38px;
+      }
+      @media all and (max-height: $media-height) {
+        width: 30px;
+      }
+    }
+  }
