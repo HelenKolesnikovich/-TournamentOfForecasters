@@ -1,11 +1,15 @@
 # Лендинг: Турнир прогнозистов к ЕВРО-2021
-##### Deploy: https://HelenKolesnikovich.github.io/[folder-name]/index.html 
 ##### Done: 03.08.2021
 
 #### Prerequisites
 1. Install [Node.js](https://nodejs.org/en/download/)   
-2. To install all dependencies use [`npm install`](https://docs.npmjs.com/cli/install)  
-3. Run `gulp` in command line.
+2. Fork this repository: TournamentOfForecasters
+3. Clone your newly created repo: https://github.com/<%your_github_username%>/TournamentOfForecasters/  
+4. Go to folder `TournamentOfForecasters`  
+5. To install all dependencies use [`npm install`](https://docs.npmjs.com/cli/install)  
+6. Run `gulp` in command line.
+
+##### Screenshots:  ![](https://helenkolesnikovich.github.io/TournamentOfForecasters/screens.jpeg)
 
 ---
 
