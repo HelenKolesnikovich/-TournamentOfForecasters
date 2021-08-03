@@ -1,0 +1,16 @@
+include ../global/popupVars
+include ../global/mixins
+
+.popup-wrapper#popup
+  .popup.d-flex
+    button.popup__close-btn(id="btnClosePopup" type="button") &times;
+    ul.popup__list
+      +popupList(refList)
+    p.popup__text Cроки проведения турнира: с 01.06.2021 по 11.06.2021.
+    h3.popup__title Для участия в турнире необхоимо:
+    ul.popup__list
+      +popupList(instructionList)
+    +accentButton('btnForecast', 'ОСТАВИТЬ ПРОГНОЗ')
+    ul.popup__list#bonusTerms
+      +popupDescription(descriptionList)
+    +accentButton('btnBet', 'СДЕЛАТЬ СТАВКУ')
