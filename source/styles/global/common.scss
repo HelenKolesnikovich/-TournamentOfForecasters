@@ -1,0 +1,17 @@
+// common styles for all page components
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: $ff-main-bold, sans-serif;
+  font-size: 16px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.d-flex {
+  display: flex;
+}
