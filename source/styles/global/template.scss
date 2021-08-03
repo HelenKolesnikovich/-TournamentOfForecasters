@@ -1,0 +1,32 @@
+.wrapper-page {
+  display: grid;
+  grid-template-columns: 100vw;
+  grid-template-rows: 15vh 80vh 6vh;
+  grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+  height: 100vh;  
+
+  @media all and (max-width: $media-m) and (orientation: landscape) {
+    grid-template-rows: 15vh 73vh 12vh;
+  }
+}
+
+header {
+  grid-column: 1;
+  grid-row: 1;
+  grid-area: header;
+}
+
+main {
+  grid-column: 1;
+  grid-row: 2;
+  grid-area: main;
+}
+
+footer {
+  grid-column: 1;
+  grid-row: 3;
+  grid-area: footer;
+}
