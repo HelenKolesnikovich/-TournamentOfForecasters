@@ -1,0 +1,69 @@
+.block {
+  position: relative;
+  transform: $transform-accent-block;
+  background-color: $bg-accent-block;
+  box-shadow: $box-shadow-accent-block;
+  filter: $backdrop-filter-accent-block;
+  vertical-align: middle;
+  letter-spacing: $letter-spacing-accent-block;
+  text-shadow: $text-shadow-accent-block;
+
+  &::before {
+    @include centerer-accent-preblock();
+    @include pseudo-block(-2%, 50%, $color-green);
+    mix-blend-mode: normal;
+    box-shadow: 20px 20px 30px $color-green, 20px -20px 30px $color-green;
+  }
+
+  &--large {
+    padding: $padding-large-block-def;
+    border-radius: $border-radius-rectangle-large;
+    font-size: 2.33em;
+
+    &::before {
+      width: 15px;
+      border-radius: 16px 0 0 16px;
+
+      @media all and (max-width: $media-xl) {
+        width: 10px;
+      }
+      @media all and (max-width: $media-small), (max-height: $media-height) {
+        width: 6px;
+      }
+    }
+
+    @media all and (max-width: $media-xl) {
+      padding: $padding-large-block-size2;
+    }
+    @media all and (max-width: $media-small), (max-height: $media-height) {
+      padding: $padding-large-block-size3;
+    }
+  }
+
+  &--small {
+    position: relative;
+    left: -5%;
+    padding: $padding-small-block-def;
+    border-radius: $border-radius-rectangle-small;
+    font-size: 1.211em;
+
+    &::before {
+      width:  10px;
+      border-radius: 8px 0 0 8px;
+
+      @media all and (max-width: $media-xl) {
+        width: 6px;
+      }
+      @media all and (max-width: $media-small), (max-height: $media-height) {
+        width: 4px;
+      }
+    }
+
+    @media all and (max-width: $media-xl) {
+      padding: $padding-small-block-size2;
+    }
+    @media all and (max-width: $media-small), (max-height: $media-height) {
+      padding: $padding-small-block-size3;
+    }
+  }
+}
