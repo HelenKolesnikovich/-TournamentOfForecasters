@@ -1,0 +1,24 @@
+.hero__img {
+  align-self: stretch;
+  position: relative;
+  left: 5%;
+  max-width: 900px;
+  min-width: 574px;
+  height: auto;
+  object-position: center;
+  z-index: 5;
+
+  @media all and (max-width: $media-xl) {
+    left: -10%;
+    max-width: 574px;
+  }
+  @media all and (max-width: $media-m) {
+    bottom: 7%;
+    align-self: flex-end;
+    max-width: 685px;
+    mix-blend-mode: screen;
+  }
+  @media all and (max-width: $media-small), (max-height: $media-height) {
+    display: none;
+  }
+}
