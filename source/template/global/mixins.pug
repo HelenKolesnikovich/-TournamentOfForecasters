@@ -1,0 +1,26 @@
+mixin accentButton(id, name)
+  button.btn.btn--bright(id=id type="button") #{name}
+    i.btn__icon.fa.fa-angle-double-right(aria-hidden="true")
+
+mixin popupList(list)
+  each item in list
+    if (item.href)
+      li.popup__step.popup__step--less
+        a.popup__link(href=item.href title=item.mainContent) <span>#{item.accentContent}</span> #{item.mainContent}
+    else
+      li.popup__step.popup__step--middle
+        p.popup__instruction <span>#{item.accentContent}</span> #{item.mainContent}
+
+mixin popupDescription(list)
+  each item in list 
+    if (item.styled)
+      li(class="popup__text-info popup__text-info--styled") #{item.content}
+    else 
+      li(class="popup__text-info") #{item.content}
+
+mixin footerIcon(iconList)
+  each item in iconList 
+    a(class="icon icon__" + item.type href=item.href)
+      i(class="icon__sign fa fa-" + item.sign href=item.href title=item.sign + " link" aria-hidden="true")
+      if(item.span)
+        span #{item.spanContent}
