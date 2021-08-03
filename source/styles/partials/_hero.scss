@@ -1,0 +1,19 @@
+.hero {
+  justify-content: space-evenly;
+  font-size: 62px;
+  color: $color-white;
+  text-transform: uppercase;
+
+  @media all and (max-width: $media-xl) {
+    font-size: 50px;
+  }
+  @media all and (max-width: $media-m) {
+    font-size: 53px;
+  }
+  @media all and (max-width: $media-s) {
+    font-size: 40px;
+  }
+  @media all and (max-height: $media-height) {
+    font-size: 22px;
+  }
+}
