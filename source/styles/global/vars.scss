@@ -1,0 +1,97 @@
+$media-xxl: 1920px;
+$media-xl: 1024px;
+$media-m: 768px;
+$media-s: 600px;
+$media-small: 375px;
+$media-height: 670px;
+
+$popup-width-large: 808px;
+$popup-width-medium: 708px;
+$popup-width-small: 345px;
+
+$image-width-xxl: 900px;
+$image-width-xl: 580px;
+$image-width-m: 690px;  
+
+$margin-popup-button: 30px 0;
+
+$padding-header-def: 60px 0 45px 0;
+$padding-header-size2: 30px 0 25px 0;
+$padding-footer-def: 28px 0;
+$padding-footer-size2: 10px 0;
+$padding-hero-description-xxl: 100px 0 150px;
+$padding-hero-description-xl: 38px 0 90px;
+$padding-hero-description-m: 22px 0 266px;
+$padding-hero-description-small: 10px 0 48px;
+$padding-large-block-def: 10px 63px 15px 50px;
+$padding-large-block-size2: 10px 40px 15px 25px;
+$padding-large-block-size3: 1px 30px 1px 15px;
+$padding-small-block-def: 5px 30px;
+$padding-small-block-size2: 4px 24px;
+$padding-small-block-size3: 3px 18px;
+$padding-button-default: 18px 95px 20px 60px;
+$padding-button-size2: 10px 65px 15px 50px;
+$padding-button-size3: 10px 45px 10px 30px;
+$padding-app: 8px 10px;
+$padding-social: 8px;
+$padding-popup: 60px 30px;
+$padding-popup-step: 20px 30px;
+$padding-popup-button: 20px 40px;
+
+$border-radius-popup-step: 8px;
+$border-radius-popup: 12px;
+$border-radius-close: 12px;
+$border-radius-icon: 4px;    
+$border-radius-rectangle-large: 14px;
+$border-radius-rectangle-small: 7px;
+$border-radius-btn: 7px;
+
+$border-color-icon: rgba(255, 255, 255, 0.2);
+
+$box-shadow-accent: #5b7461; 
+
+$bg-black: #21262B;
+$bg--popup: #F3F3F3;
+$bg--footer: #21262B;
+$bg-block-accent: #413f3f;
+$bg-scrollbar: #D1D1D1;
+$bg-btn-ref-block-default: linear-gradient(180deg, #FC3241 0%, #C80F1C 100%);
+$bg-btn-ref-block-var2: linear-gradient(180deg, #FF6873 0%, #E40010 100%), linear-gradient(180deg, #FC3241 0%, #C80F1C 100%);
+
+$filter-btn-ref-block-default: drop-shadow(0px 5.52574px 0px rgba(0, 0, 0, 0.11)) drop-shadow(0px 5.52574px 69.0717px rgba(233, 21, 36, 0.63));
+$filter-btn-ref-block-var2: drop-shadow(0px 4.74074px 0px rgba(0, 0, 0, 0.11)) drop-shadow(0px 4.74074px 59.2593px #FF2D3C);
+
+$transform-accent-block: skew(-10deg);
+$bg-accent-block: rgba(255, 255, 255, 0.01);
+$backdrop-filter-accent-block: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+$box-shadow-accent-block: inset 0px 4.3097px 4.3097px rgba(255, 255, 255, 0.27), inset 0px 19.3937px 23.7034px rgba(82, 242, 123, 0.06), inset 0px 3.23228px 14.0065px rgba(59, 208, 97, 0.29);
+$text-shadow-accent-block: 0px 0px 47.4067px rgba(18, 242, 75, 0.58);
+$letter-spacing-accent-block: -3px;
+
+$transform-angle-skew: -10deg;
+$linear-gradient-angle: 180deg;
+
+$ff-main-reg: 'PFDinTextPro-500';
+$ff-main-bold: 'PFDinTextPro-700';
+$ff-additional-reg: 'roboto-400';
+$ff-additional-med: 'roboto-500';
+$ff-additional-bold: 'roboto-700';
+
+$line-height-popup: 1.25;
+$line-height-footer: 1.25;
+
+$letter-spacing: 5%;
+$letter-spacing-system-icons: .05em;
+
+$color-green: #12F24B;
+$color-black: #21262B;
+$color-white: #fff;
+$color-scrollbar: #0A9F30;
+$color-footer-info: #A0A6AB;
+
+$opacity-links-default: .5;
+$opacity-links-var1: 1;
+$opacity-blur: .4; 
+
+$transition-speed: .5s;
