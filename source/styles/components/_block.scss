@@ -27,7 +27,7 @@
       @media all and (max-width: $media-xl) {
         width: 10px;
       }
-      @media all and (max-width: $media-small), (max-height: $media-height) {
+      @media all and (max-width: $media-small), (max-height: $media-height-med) {
         width: 6px;
       }
     }
@@ -35,7 +35,7 @@
     @media all and (max-width: $media-xl) {
       padding: $padding-large-block-size2;
     }
-    @media all and (max-width: $media-small), (max-height: $media-height) {
+    @media all and (max-width: $media-small), (max-height: $media-height-med) {
       padding: $padding-large-block-size3;
     }
   }
@@ -54,7 +54,7 @@
       @media all and (max-width: $media-xl) {
         width: 6px;
       }
-      @media all and (max-width: $media-small), (max-height: $media-height) {
+      @media all and (max-width: $media-small), (max-height: $media-height-med) {
         width: 4px;
       }
     }
@@ -62,7 +62,7 @@
     @media all and (max-width: $media-xl) {
       padding: $padding-small-block-size2;
     }
-    @media all and (max-width: $media-small), (max-height: $media-height) {
+    @media all and (max-width: $media-small), (max-height: $media-height-med) {
       padding: $padding-small-block-size3;
     }
   }

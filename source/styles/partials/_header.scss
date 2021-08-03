@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
   
-    @media all and (max-width: $media-small), (max-height: $media-height) {
+    @media all and (max-width: $media-small), (max-height: $media-height-med) {
       padding: $padding-header-size2;
     }
   
@@ -20,7 +20,7 @@
         width: 140px;
         margin-right: 18px;
       }
-      @media all and (max-height: $media-height) {
+      @media all and (max-height: $media-height-med) {
         width: 100px;
         margin-right: 10px;
       }
@@ -36,7 +36,7 @@
       @media all and (max-width: $media-small) {
         width: 38px;
       }
-      @media all and (max-height: $media-height) {
+      @media all and (max-height: $media-height-med) {
         width: 30px;
       }
     }

@@ -13,7 +13,10 @@
   @media all and (max-width: $media-s) {
     font-size: 40px;
   }
-  @media all and (max-height: $media-height) {
-    font-size: 22px;
+  @media all and (max-height: $media-height-med) {
+    font-size: 35px;
+  }
+  @media all and (max-height: $media-height-small) {
+    font-size: 25px;
   }
 }

@@ -17,6 +17,12 @@
   transform: translateY(-50%);
 }
 
+@mixin left-position() {
+  position: absolute;
+  left: -40%;
+  bottom: 0;
+}
+
 @mixin centerer-accent-preblock() {
   position: absolute;
   top: 50%;

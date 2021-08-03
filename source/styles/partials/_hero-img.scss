@@ -16,9 +16,14 @@
     bottom: 7%;
     align-self: flex-end;
     max-width: 685px;
+  }
+  @media all and (max-width: $media-s) {
+    @include left-position();
+    width: auto;
+    max-height: 480px;
     mix-blend-mode: screen;
   }
-  @media all and (max-width: $media-small), (max-height: $media-height) {
+  @media all and (max-width: $media-small), (max-height: $media-height-med) {
     display: none;
   }
 }
