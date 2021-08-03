@@ -1,0 +1,20 @@
+@import "../../node_modules/font-awesome/scss/font-awesome";
+@import "../../node_modules/reset-css/sass/reset";
+
+@import "./global/fonts";
+@import "./global/vars";
+@import "./global/mixins";
+@import "./global/common";
+@import "./global/template";
+
+@import "./partials/wrapper-page";
+@import "./partials/header";
+@import "./partials/hero";
+@import "./partials/hero-img";
+@import "./partials/hero-description";
+@import "./partials/footer";
+@import "./partials/popup";
+
+@import "./components/icon";
+@import "./components/block";
+@import "./components/btn";
