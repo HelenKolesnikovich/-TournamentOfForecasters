@@ -1,0 +1,12 @@
+include ../global/mixins
+
+.hero__description
+  p.hero__text.hero__text--accent забери
+  .hero__accent-block.d-flex
+    p.hero__text.block.block--large 1500
+    p.hero__text.block.block--small byn 
+  p.hero__text.hero__text--info за верный прогноз
+    span на ЕВРО-2021
+  .hero__ref-block.d-flex
+    +accentButton('btnBonusForm', 'Участвовать')
+    a.hero__text.hero__text--link(href="#bonusTerms" id="linkBonusTerms" title="Ознакомится с условиями бонуса") условия бонуса
