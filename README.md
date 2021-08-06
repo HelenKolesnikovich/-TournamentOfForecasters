@@ -1,6 +1,5 @@
 # Лендинг: Турнир прогнозистов к ЕВРО-2021
 
-##### Deploy: https://HelenKolesnikovich.github.io/TournamentOfForecasters/index.html
 ##### Done: 03.08.2021
 
 #### Prerequisites
